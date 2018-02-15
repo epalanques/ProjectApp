@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "332842630654",
+    "firebase_url": "https://tinderlikeapp-39d27.firebaseio.com",
+    "project_id": "tinderlikeapp-39d27",
+    "storage_bucket": "tinderlikeapp-39d27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332842630654:android:77ad2552feb2d441",
+        "android_client_info": {
+          "package_name": "ptdomains.tinderlikeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332842630654-f715ci6g90l66ur2s69nbha731mighoh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ptdomains.tinderlikeapp",
+            "certificate_hash": "79af2dfc8e41462df0b571143fde4e5323a600a1"
+          }
+        },
+        {
+          "client_id": "332842630654-2fgf8sf0gq1f4vgnm9kirn6bh216bb88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsFni976iZKUr18BcQon4NRb2ihJPfEoY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332842630654-2fgf8sf0gq1f4vgnm9kirn6bh216bb88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
