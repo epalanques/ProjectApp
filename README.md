@@ -1,4 +1,4 @@
-# ProjectApp
+# SwipeCardsApp
 
 This App is being created following the SimCoder tutorials and then being modified!
 
