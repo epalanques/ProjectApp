@@ -1,4 +1,4 @@
-package ptdomains.tinderlikeapp;
+package ptdomains.tinderlikeapp.Cards;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.List;
-import java.util.zip.Inflater;
+
+import ptdomains.tinderlikeapp.Cards.cards;
+import ptdomains.tinderlikeapp.R;
 
 /**
  * Created by eric on 12/02/18.
@@ -34,10 +38,15 @@ public class arrayAdapter extends ArrayAdapter<cards> {
         ImageView image = (ImageView) convertView.findViewById(R.id.image);
 
         name.setText(card_item.getName());
-        image.setImageResource(R.mipmap.ic_launcher);
-
+        switch (card_item.getProfileImageUrl()){
+            case "default":
+                Glide.with(convertView.getContext()).load(R.mipmap.ic_launcher).into(image);
+                break;
+            default:
+                Glide.clear(image);
+                Glide.with(convertView.getContext()).load(card_item.getProfileImageUrl()).into(image);
+                break;
+        }
         return convertView;
-
     }
-
 }
